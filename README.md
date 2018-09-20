@@ -6,4 +6,4 @@
 *cd martin-events-client
 *bundle install
 *rake db:migrate
-*rails s
+*rails s (to open browser)
