@@ -15,7 +15,7 @@ You'll need:
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development up and running
 
 Cloning git repo:
 ```
@@ -48,9 +48,6 @@ Add additional notes about how to deploy this on a live system
 
 * [Ruby](https://www.ruby-lang.org/en/) - Version 5.2.1
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
