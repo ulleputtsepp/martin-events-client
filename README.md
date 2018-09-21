@@ -38,12 +38,6 @@ Starting rails server to see your result in a browser:
 rails s
 ```
 
-
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) - Version 5.2.1
