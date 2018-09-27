@@ -41,6 +41,7 @@ rails s
 ## Built With
 
 * [Ruby](https://www.ruby-lang.org/en/) - Version 2.5.1p57
+* [Rails](https://rubyonrails.org/) - Version 5.2.1
 
 
 ## Versioning
