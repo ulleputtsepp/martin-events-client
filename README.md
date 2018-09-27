@@ -40,7 +40,7 @@ rails s
 
 ## Built With
 
-* [Ruby](https://www.ruby-lang.org/en/) - Version 5.2.1
+* [Ruby](https://www.ruby-lang.org/en/) - Version 2.5.1p57
 
 
 ## Versioning
