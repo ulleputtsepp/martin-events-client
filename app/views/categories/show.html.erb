@@ -5,5 +5,12 @@
   <%= @category.name %>
 </p>
 
+<h3>Events</h3>
+<ul>
+	<% @category.events.each do |event| %>
+	<li> <%= link_to(event.name, event_path(event)) %> </li>
+	<% end %>
+</ul>
+
 <%= link_to 'Edit', edit_category_path(@category) %> |
 <%= link_to 'Back', categories_path %>
