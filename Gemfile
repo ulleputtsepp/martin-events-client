@@ -30,6 +30,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'sendgrid-ruby'
 gem 'sidekiq'
+gem 'recaptcha', require:'recaptcha/rails'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
