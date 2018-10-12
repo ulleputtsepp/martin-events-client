@@ -1,4 +1,37 @@
-# martin-events-client
+# Projekt: martin-events-client
+
+## Recaptcha API 
+
+guide how to generate and use recaptcha keys https://github.com/ambethia/recaptcha
+
+in Gemfile add:
+```
+gem "recaptcha"
+```
+
+obtain a recaptcha API key: https://www.google.com/recaptcha/admin#list
+
+mark label: 'any you like'; choose the type of reCAPTCHA: 'checkbox'; Domains: write e.g. 'localhost'; accept terms of services; register
+
+add site key and secret key into your secret.env file:
+```
+export RECAPTCHA_SITE_KEY = 'key''
+export RECAPTCHA_SECRET_KEY = 'key'
+```
+in contact/index.html.erb
+```
+<%= recaptcha_tags %>
+```
+In .gitignore file:
+```
+/.ruby-env
+secret.env
+```
+run
+```
+source secret.env
+rails s
+```
 
 This is a README and is normally a document or whatever steps to get the application up and running
 
